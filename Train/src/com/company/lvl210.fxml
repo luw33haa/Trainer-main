@@ -1,30 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<?import javafx.scene.effect.*?>
-<?import javafx.scene.paint.*?>
-<?import javafx.scene.text.*?>
-<?import java.lang.*?>
-<?import java.util.*?>
-<?import javafx.scene.*?>
-<?import javafx.scene.control.*?>
-<?import javafx.scene.layout.*?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
 
-<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="780.0" prefWidth="1300.0" style="-fx-background-color: #FFE4B5;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.company.Main">
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="780.0" prefWidth="1300.0" style="-fx-background-color: #FFE4B5;" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.company.Main">
     <children>
-        <TextField editable="false" layoutX="564.0" layoutY="35.0" prefHeight="50.0" prefWidth="474.0" style="-fx-background-color: transperent;" text="Выберите код с правильно использованными Переменной Char">
+        <TextField editable="false" layoutX="517.0" layoutY="10.0" prefHeight="50.0" prefWidth="474.0" style="-fx-background-color: transperent;" text="10.Выберите код с правильно использованными Переменной Char">
             <font>
                 <Font size="15.0" />
             </font>
         </TextField>
-        <Button alignment="TOP_CENTER" layoutX="511.0" layoutY="85.0" mnemonicParsing="false" onAction="#lvl2fin" prefHeight="241.0" prefWidth="430.0" style="-fx-background-color: #F0F8FF;" text="правильный">
+        <Button alignment="TOP_CENTER" layoutX="511.0" layoutY="85.0" mnemonicParsing="false" onAction="#lvl2fin" prefHeight="241.0" prefWidth="430.0" style="-fx-background-color: #F0F8FF;" text=" class SecureDivisionOp {&#10;    public static void main(String[] args) {&#10;        int result;&#10;        for (int divisor = -5; divisor &lt;= 5; divisor++)&#10;        {&#10;            result = divisor != 0 ? 100 / divisor : 0;&#10;            if (result != 0) {&#10;                System.out.println(&quot;100 / &quot; + divisor + &quot; = &quot; + result);&#10;            }&#10;        }&#10;    }&#10;}">
             <font>
                 <Font size="13.0" />
             </font></Button>
-        <Button layoutX="511.0" layoutY="355.0" mnemonicParsing="false" onAction="#lvl21fin" prefHeight="241.0" prefWidth="430.0" style="-fx-background-color: #F0F8FF;" text="неправильный">
+        <Button layoutX="511.0" layoutY="355.0" mnemonicParsing="false" onAction="#lvl21fin" prefHeight="241.0" prefWidth="430.0" style="-fx-background-color: #F0F8FF;" text="public class SecureDivisionOp {&#10;    public static void main(String[] args) {&#10;        for result;&#10;        int divisor = -5; divisor &lt;= 5; divisor++;&#10;        {&#10;            result = divisor = 0  100 / divisor : 0;&#10;            {&#10;                System.out.println(&quot;100 / &quot; + divisor + &quot; = &quot; + result);&#10;            }&#10;        }&#10;    }&#10;}">
             <font>
                 <Font size="13.0" />
             </font></Button>
-        <TextArea layoutX="10.0" layoutY="10.0" prefHeight="750.0" prefWidth="490.0" />
-        <TextField editable="false" layoutX="1021.0" layoutY="232.0" text="10 средний" />
+        <TextArea editable="false" layoutX="10.0" layoutY="10.0" prefHeight="750.0" prefWidth="490.0" text="Как избежать деления на ноль&#10;Вы можете использовать тернарный оператор для того,&#10; чтобы &#10;предотвратить деление на ноль. Этот оператор используется&#10; для проверки делителя&#10;на равенство нулю. Если ее результат отрицательный, &#10;вы выполняете&#10;деление, если нет - возвращаете значение ноль,&#10; как в следующем примере.&#10;">
+         <font>
+            <Font size="14.0" />
+         </font></TextArea>
     </children>
 </Pane>

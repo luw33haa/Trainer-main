@@ -1,30 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<?import javafx.scene.effect.*?>
-<?import javafx.scene.paint.*?>
-<?import javafx.scene.text.*?>
-<?import java.lang.*?>
-<?import java.util.*?>
-<?import javafx.scene.*?>
-<?import javafx.scene.control.*?>
-<?import javafx.scene.layout.*?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
 
-<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="780.0" prefWidth="1300.0" style="-fx-background-color: #FFE4B5;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.company.Main">
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="780.0" prefWidth="1300.0" style="-fx-background-color: #FFE4B5;" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.company.Main">
     <children>
-        <TextField editable="false" layoutX="564.0" layoutY="35.0" prefHeight="50.0" prefWidth="474.0" style="-fx-background-color: transperent;" text="Выберите код с правильно использованными Переменной Char">
+        <TextField editable="false" layoutX="548.0" layoutY="10.0" prefHeight="50.0" prefWidth="474.0" style="-fx-background-color: transperent;" text="9.Выберите код с правильно использованными Переменной Char">
             <font>
                 <Font size="15.0" />
             </font>
         </TextField>
-        <Button alignment="TOP_CENTER" layoutX="511.0" layoutY="85.0" mnemonicParsing="false" onAction="#lvl299" prefHeight="241.0" prefWidth="430.0" style="-fx-background-color: #F0F8FF;">
+        <Button alignment="TOP_CENTER" layoutX="511.0" layoutY="85.0" mnemonicParsing="false" onAction="#lvl299" prefHeight="274.0" prefWidth="274.0" style="-fx-background-color: #F0F8FF;" text="class Ten {&#10;    int x;&#10;    Ten(){&#10;        x=10;&#10;    }&#10;}&#10;class TenDemo{&#10;    public static void main(String[] args) {&#10;        Ten s1= new Ten();&#10;        Ten s2 = new Ten();&#10;        if(s1.x == s2.x);&#10;        System.out.println(s1.x + &quot; =&quot; + s2.x);&#10;    }&#10;}">
             <font>
                 <Font size="13.0" />
             </font></Button>
-        <Button layoutX="511.0" layoutY="355.0" mnemonicParsing="false" onAction="#lvl2999" prefHeight="241.0" prefWidth="430.0" style="-fx-background-color: #F0F8FF;">
+        <Button layoutX="511.0" layoutY="438.0" mnemonicParsing="false" onAction="#lvl2999" prefHeight="274.0" prefWidth="274.0" style="-fx-background-color: #F0F8FF;" text="class Ten {&#10;    for x;&#10;    Ten(){&#10;        x=10;&#10;         s1= new();&#10;         s2 = new();&#10;        while(s1.x == s2.x);&#10;        System.out.println(s1.x + &quot; =&quot; + s2.x);&#10;  }&#10;}">
             <font>
                 <Font size="13.0" />
             </font></Button>
-        <TextArea layoutX="10.0" layoutY="10.0" prefHeight="750.0" prefWidth="490.0" />
-        <TextField editable="false" layoutX="1021.0" layoutY="232.0" text="9 средний" />
+        <TextArea editable="false" layoutX="10.0" layoutY="10.0" prefHeight="750.0" prefWidth="490.0" text="Конструктор - это специальный метод,&#10;который вызывается в момент создания объекта.&#10; Имя этого метода совпадает с именем класса. &#10;Никакого значения он не возвращает и используется&#10;только для присвоения начальных значений переменным объекта.&#10;В языке Java у каждого класса есть хотя бы один конструктор.&#10; Он может&#10;быть не объявлен явно: в этом случае компилятор добавляет к классу&#10;конструктор по умолчанию, присваивающий переменным &#10;объекта зона чтения по умолчанию. &#10;Как только вы объявите для некоторого класса&#10;собственный конструктор, автоматически сгенерированный конструктор&#10;станет недоступен.">
+         <font>
+            <Font size="14.0" />
+         </font></TextArea>
     </children>
 </Pane>

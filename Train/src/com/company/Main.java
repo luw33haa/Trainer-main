@@ -31,7 +31,7 @@ public class Main extends Application{
         stage.setScene(scene);
         stage.setTitle("JavaTest");
         stage.setWidth(1400);
-        stage.setHeight(900);
+        stage.setHeight(950);
         stage.show();
     }
     public void openps(ActionEvent event) throws IOException {
