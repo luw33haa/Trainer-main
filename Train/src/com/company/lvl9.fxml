@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="780.0" prefWidth="1300.0" style="-fx-background-color: #FFE4B5;" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.company.Main">
+    <children>
+        <TextField editable="false" layoutX="564.0" layoutY="35.0" prefHeight="50.0" prefWidth="474.0" style="-fx-background-color: transperent;" text="9.Выберите код с правильно использованными Переменной Char">
+            <font>
+                <Font size="15.0" />
+            </font>
+        </TextField>
+        <Button alignment="TOP_CENTER" layoutX="511.0" layoutY="85.0" mnemonicParsing="false" onAction="#lvl10" prefHeight="311.0" prefWidth="501.0" style="-fx-background-color: #F0F8FF;" text="public class ExtendedBreakDemo {&#10;    public static void main(String[] args) {&#10;        for(int i=1; i&lt;4; i++){&#10;            Блок1:{&#10;            Блок2:{&#10;                Блок3:{&#10;                System.out.println(&quot;\ni равно&quot;+ i);&#10;                if(i ==1)break Блок1;&#10;                if(i ==2)break Блок2;&#10;                if(i ==3)break Блок3;&#10;                System.out.println(&quot;Эта строка никогда не будет напечатана&quot;);&#10;                }&#10;            }System.out.println(&quot;Завершен блок 3&quot;);&#10;            }System.out.println(&quot;Завершен блок 2&quot;);&#10;        }System.out.println(&quot;Завершен блок 1&quot;);&#10;    }&#10;}&#10;">
+            <font>
+                <Font size="13.0" />
+            </font></Button>
+        <Button layoutX="511.0" layoutY="410.0" mnemonicParsing="false" onAction="#lvl101" prefHeight="350.0" prefWidth="501.0" style="-fx-background-color: #F0F8FF;" text="public class ExtendedBreakDemo {&#10;    public static void main(String[] args) {&#10;        if (int i=1; i&lt;4; i++){&#10;            Блок1:{&#10;            Блок2:{&#10;                Блок3:{&#10;                System.out.println(&quot;\ni равно&quot;+ i);&#10;                for(i ==1) Блок1;&#10;                for (i ==2)Блок2;&#10;                for(i ==3) Блок3;&#10;                System.out.println(&quot;Эта строка никогда не будет напечатана&quot;);&#10;                }&#10;            }System.out.println(&quot;Завершен блок 3&quot;);&#10;            }System.out.println(&quot;Завершен блок 2&quot;);&#10;        }System.out.println(&quot;Завершен блок 1&quot;);&#10;    }&#10;}">
+            <font>
+                <Font size="13.0" />
+            </font></Button>
+        <TextArea layoutX="10.0" layoutY="10.0" prefHeight="750.0" prefWidth="490.0" style="-fx-background-color: #F0F8FF;" text="Для решения этой задачи Java предлагает расширенную&#10; форму команды&#10;break:&#10;break label;&#10;Метка label - это идентификатор некоторого &#10;блока программы, внеш-&#10;него по отношению к команде break, Если &#10;обычная команда break без&#10;метки прерывает выполнение непосредственно &#10;того блока, в котором&#10;находится (самого внутреннего), то break с меткой, &#10;ссылающейся на&#10;некоторый из объемлющих блоков, прерывает &#10;выполнение всех после-&#10;довательно вложенных блоков">
+         <font>
+            <Font size="16.0" />
+         </font></TextArea>
+    </children>
+</Pane>

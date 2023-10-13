@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.paint.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="780.0" prefWidth="1300.0" style="-fx-background-color: #FFE4B5;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.company.Main">
+    <children>
+        <TextField editable="false" layoutX="564.0" layoutY="35.0" prefHeight="50.0" prefWidth="474.0" style="-fx-background-color: transperent;" text="Выберите код с правильно использованными Переменной Char">
+            <font>
+                <Font size="15.0" />
+            </font>
+        </TextField>
+        <Button alignment="TOP_CENTER" layoutX="511.0" layoutY="85.0" mnemonicParsing="false" onAction="#lvl4h" prefHeight="241.0" prefWidth="430.0" style="-fx-background-color: #F0F8FF;">
+            <font>
+                <Font size="13.0" />
+            </font></Button>
+        <Button layoutX="511.0" layoutY="355.0" mnemonicParsing="false" onAction="#lvl41h" prefHeight="241.0" prefWidth="430.0" style="-fx-background-color: #F0F8FF;">
+            <font>
+                <Font size="13.0" />
+            </font></Button>
+        <TextArea layoutX="10.0" layoutY="10.0" prefHeight="750.0" prefWidth="490.0" />
+        <TextField editable="false" layoutX="1021.0" layoutY="232.0" text="3 хард" />
+    </children>
+</Pane>

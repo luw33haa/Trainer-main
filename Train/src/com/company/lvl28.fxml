@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="780.0" prefWidth="1300.0" style="-fx-background-color: #FFE4B5;" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.company.Main">
+    <children>
+        <TextField editable="false" layoutX="564.0" layoutY="35.0" prefHeight="50.0" prefWidth="474.0" style="-fx-background-color: transperent;" text="Выберите код с правильно использованными Переменной Char">
+            <font>
+                <Font size="15.0" />
+            </font>
+        </TextField>
+        <Button alignment="TOP_CENTER" layoutX="511.0" layoutY="85.0" mnemonicParsing="false" onAction="#lvl288" prefHeight="309.0" prefWidth="299.0" style="-fx-background-color: #F0F8FF;" text="import java.math.*;&#10;&#10;public class Program {&#10;&#10;public static void main(String[] args) {&#10;&#10;BigInteger a = BigInteger.valueOf(2147483647);&#10;BigInteger b = BigInteger.valueOf(2147483641);&#10;&#10;a = a.multiply(b);&#10;System.out.println(a); // 4611686001247518727&#10;long x = a.longValue();&#10;System.out.println(x); // 4611686001247518727&#10;&#10;}&#10;}&#10;">
+            <font>
+                <Font size="10.0" />
+            </font></Button>
+        <Button layoutX="511.0" layoutY="422.0" mnemonicParsing="false" onAction="#lvl2888" prefHeight="309.0" prefWidth="299.0" style="-fx-background-color: #F0F8FF;" text="public class Program {&#10;&#10;public static void main(String[] args) {&#10;&#10;BigInteger a = BigInteger(2147483647);&#10;BigInteger b = BigInteger(2147483641);&#10;//a = a * b; // так нельзя&#10;a = a.multiply(b);&#10;System.out.println(a); // 4611686001247518727&#10;long x = a.longValue();&#10;System.out.println(x); // 4611686001247518727&#10;&#10;BigDecimal c = BigDecimal(2325.06);&#10;BigDecimal d = BigDecimal(215.06);&#10;c = c.subtract(d.multiply(BigDecimal.valueOf(2.1)));&#10;System.out.println(c); // 1873.434&#10;double y = c.doubleValue();&#10;System.out.println(y); // 1873.434&#10;}&#10;}&#10;">
+            <font>
+                <Font size="10.0" />
+            </font></Button>
+        <TextArea layoutX="10.0" layoutY="10.0" prefHeight="750.0" prefWidth="490.0" text="Встроенные примитивные числовые типы не всегда могут подходить&#10; для определенных программ. &#10;Например, необходимо хранить и использовать в программе&#10; очень большие числа, которые &#10;выходят за пределы допустимых значений для типов long и &#10;double. В этом случае для работы с &#10;числовыми данными можно использовать два дополнительны&#10;х типа из пакетаjava.math-&#10;BigInteger(для целочисленных данных) иBigDecimal(для чисел с плавающей точкой).&#10;import java.math.*;&#10;&#10;public class Program {&#10;&#10;public static void main(String[] args) {&#10;&#10;BigInteger a = BigInteger.valueOf(2147483647);&#10;BigInteger b = BigInteger.valueOf(2147483641);&#10;//a = a * b; // так нельзя&#10;a = a.multiply(b);&#10;System.out.println(a); // 4611686001247518727&#10;long x = a.longValue();&#10;System.out.println(x); // 4611686001247518727&#10;&#10;BigDecimal c = BigDecimal.valueOf(2325.06);&#10;BigDecimal d = BigDecimal.valueOf(215.06);&#10;c = c.subtract(d.multiply(BigDecimal.valueOf(2.1)));&#10;System.out.println(c); // 1873.434&#10;double y = c.doubleValue();&#10;System.out.println(y); // 1873.434&#10;}&#10;}&#10;" />
+    </children>
+</Pane>

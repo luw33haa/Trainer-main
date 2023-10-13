@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="780.0" prefWidth="1300.0" style="-fx-background-color: #FFE4B5;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.company.Main">
+   <children>
+      <TextField editable="false" layoutX="564.0" layoutY="35.0" prefHeight="50.0" prefWidth="435.0" style="-fx-background-color: transperent;" text="Выберите решение с правильно применённым циклом For">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </TextField>
+      <Button layoutX="511.0" layoutY="85.0" mnemonicParsing="false" onAction="#lvl2" prefHeight="241.0" prefWidth="430.0" style="-fx-background-color: #F0F8FF;" text="public class ForStatementDemo {&#10;    public static void main(String[] args) {&#10;        int count;&#10;        for (count = 0; count &lt;5; count = count + 1)&#10;            System.out.println(&quot;Переменная цикла равна&quot; + count);&#10;        System.out.println(&quot;Цикл окончен&quot;);&#10;           } &#10;} ">
+         <font>
+            <Font size="13.0" />
+         </font></Button>
+      <Button layoutX="511.0" layoutY="355.0" mnemonicParsing="false" onAction="#lvl21" prefHeight="241.0" prefWidth="430.0" style="-fx-background-color: #F0F8FF;" text="public class ForStatementDemo {&#10;    public static void main(args) {&#10;        String count;&#10;        for (count = 0; count &lt;5; count = count + 1)&#10;            System.out.printScreen(&quot;Переменная цикла равна&quot; + count);&#10;        System.out.printScreen(&quot;Цикл окончен&quot;);&#10;           } &#10;} ">
+         <font>
+            <Font size="13.0" />
+         </font></Button>
+      <TextArea layoutX="10.0" layoutY="10.0" prefHeight="750.0" prefWidth="490.0" />
+      <TextField layoutX="1045.0" layoutY="102.0" promptText="1 " text="1 лёгкий" />
+   </children>
+</Pane>

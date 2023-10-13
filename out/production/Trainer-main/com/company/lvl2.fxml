@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="780.0" prefWidth="1300.0" style="-fx-background-color: #FFE4B5;" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.company.Main">
+    <children>
+        <TextField editable="false" layoutX="564.0" layoutY="35.0" prefHeight="50.0" prefWidth="435.0" style="-fx-background-color: transperent;" text="2.Выберите код с правильно использованными Блоками">
+            <font>
+                <Font size="15.0" />
+            </font>
+        </TextField>
+        <Button layoutX="511.0" layoutY="85.0" mnemonicParsing="false" onAction="#lvl31" prefHeight="241.0" prefWidth="430.0" style="-fx-background-color: #F0F8FF;" text="public class BlockDemo {&#10;    public static void main(String[]) {&#10;        int I, j, d,&#10;        i = 50;&#10;        j = 150;&#10;        else (i !=0){&#10;            System.out.println(&quot;Делитель не равен нулю&quot;);&#10;            b=j/i;&#10;            System.out.println(&quot;j/i равно&quot; + d);&#10;        }&#10;    }&#10;}&#10;">
+         <font>
+            <Font size="13.0" />
+         </font></Button>
+        <Button layoutX="511.0" layoutY="355.0" mnemonicParsing="false" onAction="#lvl3" prefHeight="241.0" prefWidth="430.0" style="-fx-background-color: #F0F8FF;" text="public class BlockDemo {&#10;    public static void main(String[] args) {&#10;        double I, j, d,&#10;        i = 50;&#10;        j = 150;&#10;        if (i !=0){&#10;            System.out.println(&quot;Делитель не равен нулю&quot;);&#10;            d=j/i;&#10;            System.out.println(&quot;j/i равно&quot; + d);&#10;        }&#10;    }&#10;}&#10;">
+         <font>
+            <Font size="13.0" />
+         </font></Button>
+      <TextArea layoutX="10.0" layoutY="10.0" prefHeight="750.0" prefWidth="490.0" style="-fx-background-color: #F0F8FF;" text="Блок кода - это ключевое понятие в языке Java, &#10;логическая единица&#10;текста программы. Блок представляет собой &#10;последовательность опера-&#10;торов, заключенную в фигурные скобки:&#10;if (а &lt; b) { // начало блока&#10;v = a + 1;&#10;w = b + v;&#10;}// конец блока. Точку с запятой ставить не нужно!&#10;Блок может быть и пустым, то есть внутри фигурных &#10;скобок может не&#10;быть ни одного оператора. Вместо любого оператора&#10; внутри блока может&#10;находится другой блок - вложенный.&#10;Программист может объединять операторы в блоки&#10; для того, чтобы:&#10;написать несколько операторов там, где по правилам &#10;языка полагается&#10;только один. Например, в уже рассмотренных &#10;операторах ветвления&#10;и цикла вместо одного «оператор;» можно&#10; использовать блок;&#10;сделать исходный текст более наглядным и понятным;&#10;ограничить область видимости переменных: &#10;переменная, объявленная&#10;в блоке, известна только внутри него.&#10;">
+         <font>
+            <Font size="17.0" />
+         </font></TextArea>
+    </children>
+</Pane>

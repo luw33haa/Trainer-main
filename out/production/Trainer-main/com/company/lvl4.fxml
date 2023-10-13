@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="780.0" prefWidth="1300.0" style="-fx-background-color: #FFE4B5;" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.company.Main">
+    <children>
+        <TextField editable="false" layoutX="525.0" layoutY="14.0" prefHeight="50.0" prefWidth="802.0" style="-fx-background-color: transperent;" text="4. Выберите код для  код для вычисления длины гипотенузы по теореме Пифагора, использую double">
+            <font>
+                <Font size="16.0" />
+            </font>
+        </TextField>
+        <Button alignment="TOP_CENTER" layoutX="511.0" layoutY="78.0" mnemonicParsing="false" onAction="#lvl5" prefHeight="250.0" prefWidth="444.0" style="-fx-background-color: #F0F8FF;" text="public class HypotDemo {&#10;    public static void main(String[] args) {&#10;        double cathetus1, cathetus2, hypot;&#10;            cathetus1 = 3; //Длина первого катета&#10;        cathetus2 = 4; // Длина второго катета&#10;        hypot = Math.sqrt((cathetus1 * cathetus1) + (cathetus2 * cathetus2));&#10;        System.out.println(&quot;Длина гипотенузы равна&quot; + hypot);&#10;    }//main (String[])&#10;}//class HypotDemo">
+            <font>
+                <Font size="13.0" />
+            </font></Button>
+        <Button layoutX="511.0" layoutY="355.0" mnemonicParsing="false" onAction="#lvl51" prefHeight="242.0" prefWidth="444.0" style="-fx-background-color: #F0F8FF;" text="public class HypotDemo {&#10;    public static void main(String[] args) {&#10;        double I, j, d,&#10;        i = 50;&#10;        j = 150;&#10;        if (i !=0){&#10;            System.out.println(&quot;Делитель не равен нулю&quot;);&#10;            d=j/i;&#10;            System.out.println(&quot;j/i равно&quot; + d);&#10;        }//if (i !=0)&#10;    }//main (String[])&#10;}//BlockDemo Class">
+            <font>
+                <Font size="13.0" />
+            </font></Button>
+        <TextArea layoutX="10.0" layoutY="10.0" prefHeight="753.0" prefWidth="454.0" style="-fx-background-color: #F0F8FF;" text="Вещественное число, как известно, состоит из целой и &#10;дробной части,&#10;разделенных десятичной точкой. Для представления&#10; вещественных чисел&#10;Java располагает двумя типами данных: float и double.&#10; Первый из них&#10;предназначен для хранения чисел с 7-8 значащими&#10; цифрами, второй -&#10;для чисел с двойной точностью&#10; (15-16 значащих цифр).&#10;Тип данных double используется гораздо чаще, чем&#10; float. С ним ра-&#10;ботают все математические функции библиотек Java. &#10;Например, метод&#10;sqrt (), определенный в классе Math и&#10; вычисляющий квадратный ко-&#10;рень своего аргумента,&#10; принимает аргумент типа double и возвращает&#10;значение этого же типа.">
+         <font>
+            <Font size="16.0" />
+         </font></TextArea>
+    </children>
+</Pane>

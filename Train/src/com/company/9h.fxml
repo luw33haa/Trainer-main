@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="780.0" prefWidth="1300.0" style="-fx-background-color: #FFE4B5;" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.company.Main">
+    <children>
+        <TextField editable="false" layoutX="381.0" layoutY="22.0" prefHeight="50.0" prefWidth="474.0" style="-fx-background-color: transperent;" text="9.Выберите код с правильно использованными Переменной Char">
+            <font>
+                <Font size="15.0" />
+            </font>
+        </TextField>
+        <Button alignment="TOP_CENTER" layoutX="64.0" layoutY="85.0" mnemonicParsing="false" onAction="#lvl10h" prefHeight="329.0" prefWidth="352.0" style="-fx-background-color: #F0F8FF;" text="public static void main(String[] args) {&#10;&#10;        double consumption;&#10;        double mileage;&#10;        double tank;&#10;        double c; &#10;        double m; &#10;        double t; &#10;&#10;        consumption = 2.1;&#10;        mileage = 1000;&#10;        tank = 8;&#10;        c = (tank / mileage) * 100;&#10;        m = (tank / consumption) * 100;&#10;&#10;        System.out.println(&quot;Расход топлива &quot; + c + &quot; л/100км&quot;);&#10;        System.out.println(&quot;Примерное растояние &quot; + m + &quot;км&quot;);&#10;        &#10;    }&#10;" />
+        <Button layoutX="765.0" layoutY="78.0" mnemonicParsing="false" onAction="#lvl101h" prefHeight="329.0" prefWidth="352.0" style="-fx-background-color: #F0F8FF;" text="public static void main(String[] args) {&#10;&#10;        double consumption;&#10;        double mileage;&#10;        double tank;&#10;        double c; &#10;        double m;&#10;        double t; &#10;&#10;        consumption = 2.1;&#10;        mileage = 1000;&#10;        tank = 8;&#10;        c = (tank / mileage) * 100;&#10;        m = (tank / consumption) * 100;&#10;&#10;        System.out.println(&quot;Расход топлива &quot; + t + &quot; л/100км&quot;);&#10;        System.out.println(&quot;Примерное растояние &quot; + t + &quot;км&quot;);&#10;        &#10;    }" />
+      <Button layoutX="64.0" layoutY="425.0" mnemonicParsing="false" onAction="#lvl101h" prefHeight="335.0" prefWidth="352.0" style="-fx-background-color: #F0F8FF;" text="public static void main(String[] args) {&#10;&#10;        double consumption;&#10;        double mileage;&#10;        double tank;&#10;        double p; &#10;        double d; &#10;        double t;&#10;&#10;        consumption = 2.1;&#10;        mileage = 1000;&#10;        tank = 8;&#10;        c = (tank / mileage) * 100;&#10;        m = (tank / consumption) * 100;&#10;&#10;        System.out.println(&quot;Расход топлива &quot; + c + &quot; л/100км&quot;);&#10;        System.out.println(&quot;Примерное растояние &quot; + m + &quot;км&quot;);&#10;        &#10;    }&#10;" />
+    </children>
+</Pane>

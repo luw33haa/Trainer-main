@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="780.0" prefWidth="1300.0" style="-fx-background-color: #FFE4B5;" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.company.Main">
+    <children>
+        <TextField editable="false" layoutX="413.0" layoutY="165.0" prefHeight="50.0" prefWidth="474.0" style="-fx-background-color: transperent;" text="8.Выберите код с правильно использованными Переменной Char">
+            <font>
+                <Font size="15.0" />
+            </font>
+        </TextField>
+        <Button alignment="TOP_CENTER" layoutX="58.0" layoutY="39.0" mnemonicParsing="false" onAction="#lvl9h" prefHeight="351.0" prefWidth="315.0" style="-fx-background-color: #F0F8FF;" text="public static void main(String[] args) {&#10; &#10;      int first = (int) (Math.random() * 2);&#10;      int second = (int) (Math.random() * 2);&#10;      int third = (int) (Math.random() * 2);&#10;      int result = 0;&#10;      String results;&#10; &#10;      result = first == 0 ? result + 0 : result + 1;&#10;      results = first == 0 ? &quot;Промахнулся&quot; : &quot;Попал&quot;;&#10;      System.out.println(results);&#10;      result = second == 0 ? result + 0 : result + 1;&#10;      results = second == 0 ? &quot;Промахнулся&quot; : &quot;Попал&quot;;&#10;      System.out.println(results);&#10;      result = third == 0 ? result + 0 : result + 1;&#10;      results = third == 0 ? &quot;Промахнулся&quot; : &quot;Попал&quot;;&#10;      System.out.println(results);&#10; &#10;      System.out.println(result);&#10;   }" />
+        <Button layoutX="951.0" layoutY="39.0" mnemonicParsing="false" onAction="#lvl91h" prefHeight="351.0" prefWidth="315.0" style="-fx-background-color: #F0F8FF;" text="public static void main(String[] args) {&#10;&#10;        double first = (double) (Math.random() * 2);&#10;        double second = (double) (Math.random() * 2);&#10;        double third = (double) (Math.random() * 2);&#10;        int result = 0;&#10;        String results;&#10;&#10;        result = first == 0 ? result + 0 : result + 1;&#10;        results = first == 0 ? &quot;Промахнулся&quot; : &quot;Попал&quot;;&#10;        System.out.println(results);&#10;        result = second == 0 ? result + 0 : result + 1;&#10;        results = second == 0 ? &quot;Промахнулся&quot; : &quot;Попал&quot;;&#10;        System.out.println(results);&#10;        result = third == 0 ? result + 0 : result + 1;&#10;        results = third == 0 ? &quot;Промахнулся&quot; : &quot;Попал&quot;;&#10;        System.out.println(results);&#10;&#10;        System.out.println(result);&#10;    }&#10;" />
+      <Button layoutX="455.0" layoutY="390.0" mnemonicParsing="false" onAction="#lvl91h" prefHeight="367.0" prefWidth="315.0" style="-fx-background-color: #F0F8FF;" text="public static void main(String[] args) {&#10;&#10;        int first = (double) (Math.random() * 2);&#10;        int second = (double) (Math.random() * 2);&#10;        int third = (double) (Math.random() * 2);&#10;        int result = 0;&#10;        String results;&#10;&#10;        result = first == 0 ? result + 0 : result + 1;&#10;        results = first == 0 ? &quot;Промахнулся&quot; : &quot;Попал&quot;;&#10;        System.out.println(results);&#10;        result = second == 0 ? result + 0 : result + 1;&#10;        results = second == 0 ? &quot;Промахнулся&quot; : &quot;Попал&quot;;&#10;        System.out.println(results);&#10;        result = third == 0 ? result + 0 : result + 1;&#10;        results = third == 0 ? &quot;Промахнулся&quot; : &quot;Попал&quot;;&#10;        System.out.println(results);&#10;&#10;        System.out.println(result);&#10;    }&#10;}&#10;" />
+    </children>
+</Pane>

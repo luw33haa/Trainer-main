@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="780.0" prefWidth="1300.0" style="-fx-background-color: #FFE4B5;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.company.Main">
+   <children>
+      <TextArea layoutX="20.0" layoutY="28.0" prefHeight="260.0" prefWidth="1269.0" style="-fx-background-color: transperent;" text="Данный тренажёр ни на что не претендует и не выполняет задуманный план полностью по причине того что автор ещё не умел и не умеет работать в команде, извиняемся заранее&#10;Если вдруг вы захотите узнать что-то большее то вот ссылки на некоторые ресурсы которыми пользуюсь сам">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </TextArea>
+      <Button layoutX="20.0" layoutY="328.0" mnemonicParsing="false" onAction="#openLink1" prefHeight="62.0" prefWidth="197.0" text="Button" />
+      <Button layoutX="335.0" layoutY="328.0" mnemonicParsing="false" onAction="#openLink2" prefHeight="62.0" prefWidth="197.0" text="Button" />
+      <Button layoutX="679.0" layoutY="328.0" mnemonicParsing="false" onAction="#openLink3" prefHeight="62.0" prefWidth="197.0" text="Button" />
+      <Button layoutX="991.0" layoutY="328.0" mnemonicParsing="false" onAction="#openLink4" prefHeight="62.0" prefWidth="197.0" text="Button" />
+      <Button layoutX="20.0" layoutY="663.0" mnemonicParsing="false" onAction="#back" prefHeight="62.0" prefWidth="197.0" text="Назад">
+         <font>
+            <Font size="22.0" />
+         </font>
+      </Button>
+   </children>
+</Pane>

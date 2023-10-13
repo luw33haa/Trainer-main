@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="780.0" prefWidth="1300.0" style="-fx-background-color: #FFE4B5;" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.company.Main">
+    <children>
+        <TextField editable="false" layoutX="274.0" layoutY="23.0" prefHeight="50.0" prefWidth="474.0" style="-fx-background-color: transperent;" text="4.Выберите код с правильно использованными Переменной Char">
+            <font>
+                <Font size="15.0" />
+            </font>
+        </TextField>
+        <Button alignment="TOP_CENTER" layoutX="40.0" layoutY="92.0" mnemonicParsing="false" onAction="#lvl5h" prefHeight="317.0" prefWidth="430.0" style="-fx-background-color: #F0F8FF;" text="public class DivisionDemo {&#10;    public static void main(String[] args) {&#10;        int iresult, iremain;&#10;        double dresult, dremain;&#10;&#10;        iresult = 10/3;&#10;        iremain = 10%3;&#10;&#10;        System.out.println(&quot;Частное деление от 10/3 = &quot; + iresult);&#10;        System.out.println(iremain + &quot; - остаток от деления iresult&quot;);&#10;&#10;        dresult = 10.0 / 3.0;&#10;        dremain = 10.0 % 3.0;&#10;&#10;        System.out.println(&quot;Частное деление от 10.0 / 3.0 = &quot; + dresult);&#10;        System.out.println(dremain + &quot; - остаток от деления dresult&quot;);&#10;    }&#10;}" />
+        <Button layoutX="40.0" layoutY="426.0" mnemonicParsing="false" onAction="#lvl51h" prefHeight="317.0" prefWidth="430.0" style="-fx-background-color: #F0F8FF;" text="public class DivisionDemo {&#10;    public static void main(String[] args) {&#10;&#10;        iresult = 10/3;&#10;        iremain = 10%3;&#10;&#10;        System.out.println(&quot;Частное деление от 10/3 = &quot; + iresult);&#10;        System.out.println(iremain + &quot; - остаток от деления iresult&quot;);&#10;&#10;        dresult = 10.0 / 3.0;&#10;        dremain = 10.0 % 3.0;&#10;&#10;        System.out.println(&quot;Частное деление от 10.0 / 3.0 = &quot; + dresult);&#10;        System.out.println(dremain + &quot; - остаток от деления dresult&quot;);&#10;    }&#10;}" />
+      <Button layoutX="713.0" layoutY="83.0" mnemonicParsing="false" onAction="#lvl51h" prefHeight="317.0" prefWidth="430.0" style="-fx-background-color: #F0F8FF;" text="public class DivisionDemo {&#10;    public static void main(String[] args) {&#10;        int iresult, iremain;&#10;        int dresult, dremain;&#10;&#10;        iresult = 10/3;&#10;        iremain = 10%3;&#10;&#10;        System.out.println(&quot;Частное деление от 10/3 = &quot; + iresult);&#10;        System.out.println(iremain + &quot; - остаток от деления iresult&quot;);&#10;&#10;        dresult = 10.0 / 3.0;&#10;        dremain = 10.0 % 3.0;&#10;&#10;        System.out.println(&quot;Частное деление от 10.0 / 3.0 = &quot; + dresult);&#10;        System.out.println(dremain + &quot; - остаток от деления dresult&quot;);&#10;    }&#10;}&#10;" />
+    </children>
+</Pane>

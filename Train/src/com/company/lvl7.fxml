@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="780.0" prefWidth="1300.0" style="-fx-background-color: #FFE4B5;" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.company.Main">
+    <children>
+        <TextField editable="false" layoutX="564.0" layoutY="35.0" prefHeight="50.0" prefWidth="474.0" style="-fx-background-color: transperent;" text="Выберите код с правильно использованными Переменной Char">
+            <font>
+                <Font size="15.0" />
+            </font>
+        </TextField>
+        <Button alignment="TOP_CENTER" layoutX="511.0" layoutY="85.0" mnemonicParsing="false" onAction="#lvl81" prefHeight="241.0" prefWidth="430.0" style="-fx-background-color: #F0F8FF;" text="public class DivisionDemo {&#10;    public static void main(String[] args) {&#10;        int iresult, iremain;&#10;        double dresult, dremain ;&#10;        iresult= 10/3;&#10;        iremain= 10%3;&#10;        System.out.println(&quot;частное от деления 10 / 3 равно&quot;);&#10;        System.out.println(iresult+&quot;,остаток равен&quot; + iremain);&#10;        dresult= 10.0/ 3.0;&#10;        dremain= 10.0% 3.0;&#10;        System.out.println(&quot;Частное от деления 10.0 / 3.0&quot;);&#10;        System.out.println(dresult+&quot;,остаток равен&quot;+dremain);&#10;    }&#10;}">
+            <font>
+                <Font size="13.0" />
+            </font></Button>
+        <Button layoutX="511.0" layoutY="355.0" mnemonicParsing="false" onAction="#lvl8" prefHeight="241.0" prefWidth="430.0" style="-fx-background-color: #F0F8FF;" text="public class DivisionDemo {&#10;    public static void main(String[] args) {&#10;        int iresult, iremain;&#10;        double dresult, dremain ;&#10;        iresult= 10+3;&#10;        iremain= 10-3;&#10;        System.out.println(&quot;частное от деления 10 / 3 равно&quot;);&#10;        System.out.println(iresult+&quot;,остаток равен&quot; + iremain);&#10;        dresult= 10.0+ 3.0;&#10;        dremain= 10.0- 3.0;&#10;        System.out.println(&quot;Частное от деления 10.0 / 3.0&quot;);&#10;        System.out.println(dresult+&quot;,остаток равен&quot;+dremain);&#10;    }&#10;}&#10;">
+            <font>
+                <Font size="13.0" />
+            </font></Button>
+        <TextArea layoutX="10.0" layoutY="10.0" prefHeight="750.0" prefWidth="490.0" text="Оператор - это средство языка программирования,&#10; с помощью которого записывается алгоритм&#10;программы. Обычно это символ, сообщающий&#10; компилятору, какую математическую или &#10;логическую операцию должен выполнить компьютер.&#10;Сложение,деление, умножение, вычитание  &#10;применимы к переменным, литералами&#10; константами любого из числовых типов,&#10; включая тип char, и результат их&#10;применения именно таков, как можно&#10; было бы ожидать. Единственная&#10;тонкость связана с оператором&#10; деления: если и делимое, и делитель имеют&#10; целочисленный тип, то оператор «/» &#10;выполняет деление с остатком,&#10;то есть возвращает целую часть частного.&#10; Например, результатом выражения 10 / 3&#10; будет число 3, а результатом деления &#10;вещественных чисел&#10;10.0 / 3.0 -- вещественное число 3.3333333333333335.&#10;Остаток от деления можно получить&#10; с помощью оператора %. Если вернуться к &#10;предыдущему примеру, то результатом &#10;выражения 10 % 3 будет 1.&#10;К вещественным числам деление с остатком &#10;тоже применимо. Следующий&#10;пример демонстрирует деление целых и &#10;вещественных чисел.">
+         <font>
+            <Font size="16.0" />
+         </font></TextArea>
+    </children>
+</Pane>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="780.0" prefWidth="1300.0" style="-fx-background-color: #FFE4B5;" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.company.Main">
+    <children>
+        <TextField editable="false" layoutX="564.0" layoutY="35.0" prefHeight="50.0" prefWidth="474.0" style="-fx-background-color: transperent;" text="5.Выберите код с правильно использованными Переменной Char">
+            <font>
+                <Font size="15.0" />
+            </font>
+        </TextField>
+        <Button alignment="TOP_CENTER" layoutX="511.0" layoutY="85.0" mnemonicParsing="false" onAction="#lvl6" prefHeight="241.0" prefWidth="430.0" style="-fx-background-color: #F0F8FF;" text="public class StrDemo {&#10;    public static void main(String[] args) {&#10;        System.out.println(&quot;Первая строка\nВторая строка&quot;);&#10;            System.out.println(&quot;A\tB\tC&quot;);&#10;        System.out.println(&quot;D\tE\tF&quot;);&#10;            }&#10;}">
+            <font>
+                <Font size="13.0" />
+            </font></Button>
+        <Button layoutX="511.0" layoutY="355.0" mnemonicParsing="false" onAction="#lvl61" prefHeight="241.0" prefWidth="372.0" style="-fx-background-color: #F0F8FF;" text="public class StrDemo {&#10;    public static void main(String[] args) {&#10;        for(int num = 0; num &lt;=10; num++  ){&#10;            if((num%2)== 0) continue;&#10;            System.out.println(&quot;num&quot;);&#10;        }&#10;    }&#10;}">
+            <font>
+                <Font size="13.0" />
+            </font></Button>
+        <TextArea layoutX="10.0" layoutY="10.0" prefHeight="750.0" prefWidth="490.0" text="Распространенной разновидностью литерала в языке&#10; Java является стро-&#10;как - последовательность символов, &#10;заключенная в кавычки:&#10;System.out.println(&quot;Это строковый литерал&quot;);&#10;А что делать, если внутри самой строки &#10;встречается кавычка? Не будет&#10;ли она воспринята как символ завершения&#10; строки? Будет, если ее не&#10;экранировать с помощью Esc-последовательности:&#10;System.out.println(&quot;O\'Key&quot;); // строка с апострофом&#10;System.out.println(&quot;Строка с \&quot;кавычками\&quot;&quot;);&#10;Часто строковые литералы используются&#10; для указания пути к некоторому&#10;файлу. В ОС Windows символом-разделителем&#10; пути служит обратный&#10;слэш. Его тоже необходимо экранировать с помощью&#10; Esc-последовательности:&#10;String filename = &quot;c:\\project\\helloworld\\HelloWorld.java&quot;;">
+         <font>
+            <Font size="16.0" />
+         </font></TextArea>
+    </children>
+</Pane>

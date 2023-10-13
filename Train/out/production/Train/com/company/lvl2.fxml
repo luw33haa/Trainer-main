@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="780.0" prefWidth="1300.0" style="-fx-background-color: #FFE4B5;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.company.Main">
+    <children>
+        <TextField editable="false" layoutX="564.0" layoutY="35.0" prefHeight="50.0" prefWidth="435.0" style="-fx-background-color: transperent;" text="Выберите код с правильно использованными Блоками">
+            <font>
+                <Font size="15.0" />
+            </font>
+        </TextField>
+        <Button layoutX="511.0" layoutY="85.0" mnemonicParsing="false" onAction="#lvl31" prefHeight="241.0" prefWidth="430.0" style="-fx-background-color: #F0F8FF;" text="public class BlockDemo {&#10;    public static void main(String[]) {&#10;        int I, j, d,&#10;        i = 50;&#10;        j = 150;&#10;        else (i !=0){&#10;            System.out.println(&quot;Делитель не равен нулю&quot;);&#10;            b=j/i;&#10;            System.out.println(&quot;j/i равно&quot; + d);&#10;        }&#10;    }&#10;}&#10;">
+         <font>
+            <Font size="13.0" />
+         </font></Button>
+        <Button layoutX="511.0" layoutY="355.0" mnemonicParsing="false" onAction="#lvl3" prefHeight="241.0" prefWidth="430.0" style="-fx-background-color: #F0F8FF;" text="public class BlockDemo {&#10;    public static void main(String[] args) {&#10;        double I, j, d,&#10;        i = 50;&#10;        j = 150;&#10;        if (i !=0){&#10;            System.out.println(&quot;Делитель не равен нулю&quot;);&#10;            d=j/i;&#10;            System.out.println(&quot;j/i равно&quot; + d);&#10;        }&#10;    }&#10;}&#10;">
+         <font>
+            <Font size="13.0" />
+         </font></Button>
+      <TextArea layoutX="10.0" layoutY="10.0" prefHeight="750.0" prefWidth="490.0" />
+      <TextField layoutX="1010.0" layoutY="103.0" text="2 лёгкий" />
+    </children>
+</Pane>

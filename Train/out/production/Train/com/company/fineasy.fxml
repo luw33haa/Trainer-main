@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="780.0" prefWidth="1300.0" style="-fx-background-color: #FFE4B5;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.company.Main">
+   <children>
+      <TextField editable="false" layoutX="375.0" layoutY="35.0" prefHeight="121.0" prefWidth="551.0" style="-fx-background-color: transperent;" text="Поздравляем, вы прошли лёгкий уровень">
+         <font>
+            <Font size="23.0" />
+         </font>
+      </TextField>
+      <Button layoutX="537.0" layoutY="304.0" mnemonicParsing="false" onAction="#fineasy" prefHeight="86.0" prefWidth="227.0" style="-fx-background-color: #F0F8FF;" text="Вернуться к выбору уровней">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Button>
+   </children>
+</Pane>

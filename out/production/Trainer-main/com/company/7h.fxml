@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="780.0" prefWidth="1300.0" style="-fx-background-color: #FFE4B5;" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.company.Main">
+    <children>
+        <TextField editable="false" layoutX="607.0" layoutY="14.0" prefHeight="50.0" prefWidth="490.0" style="-fx-background-color: transperent;" text="7.Выберите код с правильно использованными Переменной Char">
+            <font>
+                <Font size="15.0" />
+            </font>
+        </TextField>
+        <Button alignment="TOP_CENTER" layoutX="14.0" layoutY="14.0" mnemonicParsing="false" onAction="#lvl8h" prefHeight="752.0" prefWidth="287.0" style="-fx-background-color: #F0F8FF;" text="public class Phone implements Closeable {&#10;    private final Socket socket;&#10;    private final BufferedReader reader;&#10;    private final BufferedWriter writer;&#10;    public  Phone(String ip, int port) {&#10;        try {&#10;            this.socket = new Socket(ip, port);&#10;            this.reader = createReader();&#10;            this.writer = createWriter();&#10;        } catch (IOException e) {&#10;            throw new RuntimeException(e);&#10;        }&#10;&#10;    }&#10;    public  Phone(ServerSocket server) {&#10;        try {&#10;            this.socket = server.accept();//&#10;            this.reader = createReader();&#10;            this.writer = createWriter();&#10;        } catch (IOException e) {&#10;            throw new RuntimeException(e);&#10;        }&#10;    }&#10;    public void writeLine (String message) {&#10;        try {&#10;        writer.write(message);&#10;        writer.newLine();&#10;        writer.flush();&#10;        }catch (IOException e) {&#10;            throw  new RuntimeException(e);}&#10;    }&#10;    public String readLine() {&#10;        try {&#10;         return reader.readLine();&#10;        } catch (IOException e) {&#10;            throw new RuntimeException(e);&#10;        }&#10;    }&#10;    private BufferedReader createReader() throws IOException {&#10;            return new BufferedReader(&#10;                    new InputStreamReader(&#10;                            socket.getInputStream()));&#10;        }&#10;&#10;    private BufferedWriter createWriter() throws IOException {&#10;        return  new BufferedWriter(&#10;                new OutputStreamWriter(&#10;                        socket.getOutputStream()));&#10;        }&#10;&#10;    @Override&#10;    public void close() throws IOException {&#10;    writer.close();&#10;    reader.close();&#10;    socket.close();&#10;    }&#10;}">
+            <font>
+                <Font size="9.0" />
+            </font></Button>
+      <Button layoutX="313.0" layoutY="14.0" mnemonicParsing="false" onAction="#lvl81h" prefHeight="752.0" prefWidth="270.0" style="-fx-background-color: #F0F8FF;" text="public class Phone implements Closeable {&#10;    private final Socket socket;&#10;    private final BufferedReader reader;&#10;    private final BufferedWriter writer;&#10;    public  Phone(String ip, int port) {&#10;        try {&#10;            this.socket = new Socket(ip, port);&#10;            this.reader = createReader();&#10;            this.writer = createWriter();&#10;        } catch (e) {&#10;            throw new RuntimeException(e);&#10;        }&#10;&#10;    }&#10;    public  Phone(ServerSocket server) {&#10;        try {&#10;            this.socket = server.accept();//&#10;            this.reader = createReader();&#10;            this.writer = createWriter();&#10;        } catch (e) {&#10;            throw new RuntimeException(e);&#10;        }&#10;    }&#10;    public void writeLine (String message) {&#10;        try {&#10;        writer.write(message);&#10;        writer.newLine();&#10;        writer.flush();&#10;        }catch (e) {&#10;            throw  new RuntimeException(e);}&#10;    }&#10;    public String readLine() {&#10;        try {&#10;         return reader.readLine();&#10;        } catch (e) {&#10;            throw new RuntimeException(e);&#10;        }&#10;    }&#10;    private BufferedReader createReader() throws IOException {&#10;            return new BufferedReader(&#10;                    new InputStreamReader(&#10;                            socket.getInputStream()));&#10;        }&#10;&#10;    private BufferedWriter createWriter() throws IOException {&#10;        return  new BufferedWriter(&#10;                new OutputStreamWriter(&#10;                        socket.getOutputStream()));&#10;        }&#10;&#10;    @Override&#10;    public void close() throws IOException {&#10;    writer.close();&#10;    reader.close();&#10;    socket.close();&#10;    }&#10;}">
+         <font>
+            <Font size="9.0" />
+         </font>
+      </Button>
+    </children>
+</Pane>
